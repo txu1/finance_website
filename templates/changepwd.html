@@ -1,0 +1,180 @@
+<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <!-- http://getbootstrap.com/docs/5.3/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- https://favicon.io/emoji-favicons/money-bag/ -->
+    <link href="/static/favicon.ico" rel="icon">
+
+    <link href="/static/styles.css" rel="stylesheet">
+
+    <title>C$50 Finance:
+Change Password
+</title>
+
+</head>
+
+<body>
+    <nav class="bg-light border navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><span class="blue">C</span><span class="red">$</span><span class="yellow">5</span><span class="green">0</span> <span class="red">Finance</span></a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+
+                    <ul class="navbar-nav me-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="/quote">Quote</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/buy">Buy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/sell">Sell</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/history">History</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/changepwd">Change password</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>
+                    </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="container py-5 text-center">
+
+
+<form action="/changepwd" method="post">
+    <div class="mb-3">
+        <input autocomplete="off" autofocus="" class="form-control mx-auto w-auto" name="current password" placeholder="Current pasword" type="text">
+    </div>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" name="password" placeholder="New password" type="password">
+    </div>
+    <div class="mb-3">
+        <input class="form-control mx-auto w-auto" name="confirmation" placeholder="New password (again)" type="password">
+    </div>
+    <button class="btn btn-primary" type="submit">Confirm</button>
+</form>
+
+
+    </main>
+
+    <footer class="mb-5">
+
+        <p class="mb-3 small text-center text-muted">
+            Data provided by <a href="https://finance.yahoo.com/">Yahoo</a>
+        </p>
+
+        <form action="https://validator.w3.org/check" class="text-center" enctype="multipart/form-data" method="post" target="_blank">
+            <input name="doctype" type="hidden" value="HTML5">
+            <input name="fragment" type="hidden" value="<!DOCTYPE html>
+<html lang=&quot;en&quot;><head>
+
+    <meta charset=&quot;utf-8&quot;>
+    <meta name=&quot;viewport&quot; content=&quot;initial-scale=1, width=device-width&quot;>
+
+    <!-- http://getbootstrap.com/docs/5.3/ -->
+    <link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH&quot; crossorigin=&quot;anonymous&quot;>
+    <script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js&quot; integrity=&quot;sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz&quot; crossorigin=&quot;anonymous&quot;></script>
+
+    <!-- https://favicon.io/emoji-favicons/money-bag/ -->
+    <link href=&quot;/static/favicon.ico&quot; rel=&quot;icon&quot;>
+
+    <link href=&quot;/static/styles.css&quot; rel=&quot;stylesheet&quot;>
+
+    <title>C$50 Finance:
+Register
+</title>
+
+</head>
+
+<body>
+
+    <nav class=&quot;bg-light border navbar navbar-expand-md navbar-light&quot;>
+        <div class=&quot;container-fluid&quot;>
+            <a class=&quot;navbar-brand&quot; href=&quot;/&quot;><span class=&quot;blue&quot;>C</span><span class=&quot;red&quot;>$</span><span class=&quot;yellow&quot;>5</span><span class=&quot;green&quot;>0</span> <span class=&quot;red&quot;>Finance</span></a>
+            <button aria-controls=&quot;navbar&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot; class=&quot;navbar-toggler&quot; data-bs-target=&quot;#navbar&quot; data-bs-toggle=&quot;collapse&quot; type=&quot;button&quot;>
+                <span class=&quot;navbar-toggler-icon&quot;></span>
+            </button>
+            <div class=&quot;collapse navbar-collapse&quot; id=&quot;navbar&quot;>
+
+                    <ul class=&quot;navbar-nav ms-auto mt-2&quot;>
+                        <li class=&quot;nav-item&quot;><a class=&quot;nav-link&quot; href=&quot;/register&quot;>Register</a></li>
+                        <li class=&quot;nav-item&quot;><a class=&quot;nav-link&quot; href=&quot;/login&quot;>Log In</a></li>
+                    </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class=&quot;container py-5 text-center&quot;>
+
+
+<form action=&quot;/register&quot; method=&quot;post&quot;>
+    <div class=&quot;mb-3&quot;>
+        <input autocomplete=&quot;off&quot; autofocus=&quot;&quot; class=&quot;form-control mx-auto w-auto&quot; name=&quot;username&quot; placeholder=&quot;Username&quot; type=&quot;text&quot;>
+    </div>
+    <div class=&quot;mb-3&quot;>
+        <input class=&quot;form-control mx-auto w-auto&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; type=&quot;password&quot;>
+    </div>
+    <div class=&quot;mb-3&quot;>
+        <input class=&quot;form-control mx-auto w-auto&quot; name=&quot;confirmation&quot; placeholder=&quot;Password (again)&quot; type=&quot;password&quot;>
+    </div>
+    <button class=&quot;btn btn-primary&quot; type=&quot;submit&quot;>Register</button>
+</form>
+
+
+    </main>
+
+    <footer class=&quot;mb-5&quot;>
+
+        <p class=&quot;mb-3 small text-center text-muted&quot;>
+            Data provided by <a href=&quot;https://finance.yahoo.com/&quot;>Yahoo</a>
+        </p>
+
+        <form action=&quot;https://validator.w3.org/check&quot; class=&quot;text-center&quot; enctype=&quot;multipart/form-data&quot; method=&quot;post&quot; target=&quot;_blank&quot;>
+            <input name=&quot;doctype&quot; type=&quot;hidden&quot; value=&quot;HTML5&quot;>
+            <input name=&quot;fragment&quot; type=&quot;hidden&quot;>
+            <input alt=&quot;Validate&quot; src=&quot;/static/I_heart_validator.png&quot; type=&quot;image&quot;> <!-- https://validator.w3.org/ -->
+        </form>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Adapted from https://stackoverflow.com/a/10162353
+                const html = '<!DOCTYPE ' +
+                document.doctype.name +
+                (document.doctype.publicId ? ' PUBLIC &quot;' + document.doctype.publicId + '&quot;' : '') +
+                (!document.doctype.publicId &amp;&amp; document.doctype.systemId ? ' SYSTEM' : '') +
+                (document.doctype.systemId ? ' &quot;' + document.doctype.systemId + '&quot;' : '') +
+                '>\n' + document.documentElement.outerHTML;
+                document.querySelector('form[action=&quot;https://validator.w3.org/check&quot;] > input[name=&quot;fragment&quot;]').value = html;
+            });
+        </script>
+    </footer>
+
+
+
+</body></html>">
+            <input alt="Validate" src="/static/I_heart_validator.png" type="image"> <!-- https://validator.w3.org/ -->
+        </form>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Adapted from https://stackoverflow.com/a/10162353
+                const html = '<!DOCTYPE ' +
+                document.doctype.name +
+                (document.doctype.publicId ? ' PUBLIC "' + document.doctype.publicId + '"' : '') +
+                (!document.doctype.publicId && document.doctype.systemId ? ' SYSTEM' : '') +
+                (document.doctype.systemId ? ' "' + document.doctype.systemId + '"' : '') +
+                '>\n' + document.documentElement.outerHTML;
+                document.querySelector('form[action="https://validator.w3.org/check"] > input[name="fragment"]').value = html;
+            });
+        </script>
+    </footer>
+
+
+
+</body></html>
